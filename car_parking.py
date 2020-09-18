@@ -160,7 +160,8 @@ def main():
 
     if "file" in user_input.lower():
    
-        with open("E:\adil-mohammed-au9/project/python-project-adil-mohammed-au9/1.txt","r") as f:
+        with open("E:\adil-mohammed-au9\project\python-project-adil-mohammed-au9\1.txt","r") as f:
+            #E:\adil-mohammed-au9\project\python-project-adil-mohammed-au9
             for line in f:
                 user_input=line
                 parking.show_line(user_input)
